@@ -1,0 +1,28 @@
+[
+    {
+        "type_id": "1",
+        "name": "P01",
+        "description": ""
+    },
+    {
+        "type_id": "2",
+        "name": "R21",
+        "description": ""
+    },
+    {
+        "type_id": "3",
+        "name": "R01",
+        "description": ""
+    },
+    {
+        "type_id": "4",
+        "name": "14-1",
+        "description": ""
+    }
+    ,
+    {
+        "type_id": "5",
+        "name": "DP1",
+        "description": ""
+    }
+]

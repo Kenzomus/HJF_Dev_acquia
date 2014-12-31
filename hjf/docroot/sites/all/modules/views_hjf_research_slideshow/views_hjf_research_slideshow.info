@@ -1,0 +1,11 @@
+name = Views_HJF_research_slideshow
+description = create a HJF slideshow for the view 
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = views_hjf_research_slideshow
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = research_slideshow
+features_exclude[dependencies][views_slideshow] = views_slideshow

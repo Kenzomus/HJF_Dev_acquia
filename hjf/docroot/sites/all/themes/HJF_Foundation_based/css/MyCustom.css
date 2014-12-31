@@ -1,0 +1,8 @@
+.float-right {
+ float:right;
+ margin-left:10px;
+ margin-bottom:10px;
+}
+.view view-research-slideshow.views-slideshow-pager-fields div {
+display: inline !important;
+}

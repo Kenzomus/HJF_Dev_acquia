@@ -1,0 +1,5 @@
+name = MyModulebis
+core =7.x
+
+files[]=MyModule.module
+

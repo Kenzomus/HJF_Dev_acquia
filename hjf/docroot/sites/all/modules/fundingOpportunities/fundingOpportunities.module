@@ -1,0 +1,68 @@
+<?php
+//include('scripts/ajax_json.js');
+// implement a migration class
+function funding_migrate_menu(){
+$items["content/funding_migrate"]=array(
+ 'page callback' =>'return_drupal_array',
+ 'access arguments' => array('access content'),
+  'type' => MENU_CALLBACK,
+  //'file' => '/docroot/sites/all/modules/fundingOpportunities/scripts/ajax_json.js',
+
+
+);
+
+return $items;
+
+
+
+}
+
+function return_drupal_array(){
+//$mydata= file_get_contents('bkup_oct_17_14/hjf/docroot/sites/all/modules/fundingOpportunities/data/sources/mylist.json'); 
+//if($mydata not null){
+//$json= file_get_contents('data/sources/mylist.json');
+//$My_json = New jsonHandler();
+//$Myresult = $My_json->decode($json);
+//if(!file_get_contents("docroot/sites/all/modules/fundingOpportunities/data/sources/mylist.json:,ok")){
+// die("HJF, we have a stream wrapper problem.");
+//}
+//$mydata = ajax_get_json();
+//if(empty($mydata)){
+//echo ("cannot open the file, it's empty ");
+//}
+//else {
+ // $json_file = json_decode(file_get_contents("data/sources/mylist.json"));
+  //var_dump( $json_file);
+// }
+ 
+//}
+//else {
+//dsm("cannot read the file");
+//{
+
+ 
+ //$result ='[' . str_replace("}{", "},{", $mydata) . ']';
+ //$mydata = str_replace('&quot;', '"', $mydata);
+
+ //echo($mydata);  
+//$json =json_decode(utf8_encode($mydata));
+ //$result=preg_replace('/.+?({.+}).+/','$1',$mydata); 
+
+ //var_dump(json_decode($mydata, true));
+//print_r(json_decode($result, true));
+//var_dump(json_decode($result, true));
+
+//$json=json_decode( preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $mydata), true );
+//$data= json_decode
+//echo $mydata;
+//$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
+
+//var_dump(json_decode($json,true));
+//var_dump( $Myresult);
+//$Myresult = drupal_json_decode($mydata);
+//var_dump($Myresult);
+//var_dump($json);
+//echo $mydata ;
+
+}
+

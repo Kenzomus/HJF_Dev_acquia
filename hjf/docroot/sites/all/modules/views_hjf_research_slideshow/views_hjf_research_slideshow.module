@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Views_HJF_research_slideshow feature.
+ */
+
+include_once 'views_hjf_research_slideshow.features.inc';

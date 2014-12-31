@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HJF_client_share feature.
+ */
+
+include_once 'hjf_client_share.features.inc';

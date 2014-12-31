@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HJFfeatures feature.
+ */
+
+include_once 'hjffeatures.features.inc';
